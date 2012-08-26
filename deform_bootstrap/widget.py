@@ -42,7 +42,6 @@ class TypeaheadInputWidget(AutocompleteInputWidget):
     items
         The max number of items to display in the dropdown. Defaults to
         ``8``.
-
     """
     readonly_template = 'readonly/textinput'
     size = None
